@@ -1,0 +1,134 @@
+.contain1{
+    height: 600px;
+    width: 100%;
+   background-size: cover;
+   background-repeat: no-repeat;
+    padding-top: 150px;
+   
+}
+.headcontent{
+padding-top: 100px;
+text-align: center;
+ background-color: rgba(10, 5, 5, 0.596);
+/* background: linear-gradient(120deg, #03a9f4, #f441a5, #ffeb3b, #03a9f4); */
+height: 300px;
+color: white;
+border-radius: 30px;
+
+}
+img{
+  height: 700px;
+}
+
+.coursecontent{
+margin-top: 10px;
+text-align: center;
+}
+
+.card{
+
+  filter: grayscale(50%);
+  transition: 1s;
+}
+.card:hover{
+  filter: grayscale(0);
+  transform: scale(1.3);
+}
+
+.bordershadow,.shadow,.commentsetction{
+    width: auto;
+    background-color:rgb(245, 244, 237);
+    border-radius: 15px;
+    margin: 20px 5px 0px 5px;
+    -webkit-box-shadow: 5px 2px 5px -2px rgba(29, 13, 13, 0.95);
+    -moz-box-shadow: 5px 2px 5px -2px rgba(29, 13, 13, 0.95);
+    box-shadow: 5px 2px 5px -2px rgba(29, 13, 13, 0.95);
+    padding: 20px;
+}
+
+h3{
+  width: auto;
+  background-color:rgb(214, 214, 206);
+  border-radius: 15px;
+  margin: 20px 5px 0px 5px;
+  -webkit-box-shadow: 5px 2px 5px -2px rgba(29, 13, 13, 0.95);
+  -moz-box-shadow: 5px 2px 5px -2px rgba(29, 13, 13, 0.95);
+  box-shadow: 5px 2px 5px -2px rgba(29, 13, 13, 0.95);
+  padding: 20px;
+}
+
+@font-face{
+    font-family: font1;
+    src: url(Ropest_PERSONAL_USE_ONLY.ttf);
+  }
+  h1{
+    font-family: fon;
+  }
+#logo{
+  font-family: font1;
+}
+   
+.navbar li:hover{
+    background-color: rgba(13, 17, 13, 0.466);
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 2s;
+    color: black;
+}
+/* footer */
+.page-footer{
+  border-radius: 10px;
+}
+
+.page-footer ,a{
+    color: white;
+    text-decoration: none;
+  }
+
+  .page-footer,a:hover{
+    color: white;
+    text-decoration: none;
+  }
+
+  /* flip card */
+  .flip-card {
+    width: 320px;
+    height: 220px;
+    perspective: 400px;
+}
+
+.flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 1.5s;
+    transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+}
+
+.flip-card-frontside,
+.flip-card-backside {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.flip-card-backside {
+    background-color: lightblue;
+    color: white;
+    transform: rotateY(180deg);
+    
+}
+
+.flip-card-frontside img {
+    width: 300px;
+    height: 200px;
+    border: 1px solid lightblue;
+    box-shadow: 20px 35px 30px -20px rgba(0,0,0,0.5)
+
+}
